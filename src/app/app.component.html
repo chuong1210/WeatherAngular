@@ -8,8 +8,8 @@
 
 <div class="container" *ngIf="WeatherData">
   <div class="upper-data">
-    <img src="../assets/wallpaperflare.com_wallpaper.jpg"  *ngIf="WeatherData.main.temp>15">
-    <img src="../assets/wallpaperflare.com_wallpaper (1).jpg"   *ngIf="WeatherData.main.temp<=15">
+    <img src="../assets/wallpaperflare.com_wallpaper.jpg"  *ngIf="WeatherData.main.temp<=15">
+    <img src="../assets/wallpaperflare.com_wallpaper (1).jpg"   *ngIf="WeatherData.main.temp>15">
 
 <div class="weather-data">
   <div class="location">{{WeatherData.name}}</div>
